@@ -4,9 +4,65 @@
         <servlet-name>NewServlet022920240439PM</servlet-name>
         <servlet-class>com.mygroup.project022920240435pm.NewServlet022920240439PM</servlet-class>
     </servlet>
+    <servlet>
+        <servlet-name>TestDatabaseConnection</servlet-name>
+        <servlet-class>com.mygroup.project022920240435pm.TestDatabaseConnection</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>DBConnectionTestServlet</servlet-name>
+        <servlet-class>com.mygroup.project022920240435pm.DBConnectionTestServlet</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>QueryCheck</servlet-name>
+        <servlet-class>com.mygroup.project022920240435pm.QueryCheck</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>Login</servlet-name>
+        <servlet-class>com.mygroup.project022920240435pm.Login</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>Register</servlet-name>
+        <servlet-class>com.mygroup.project022920240435pm.Register</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>Dashboard</servlet-name>
+        <servlet-class>com.mygroup.project022920240435pm.Dashboard</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>TestConnection35</servlet-name>
+        <servlet-class>com.mygroup.project022920240435pm.TestConnection35</servlet-class>
+    </servlet>
     <servlet-mapping>
         <servlet-name>NewServlet022920240439PM</servlet-name>
         <url-pattern>/NewServlet022920240439PM</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>TestDatabaseConnection</servlet-name>
+        <url-pattern>/TestDatabaseConnection</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>DBConnectionTestServlet</servlet-name>
+        <url-pattern>/DBConnectionTestServlet</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>QueryCheck</servlet-name>
+        <url-pattern>/QueryCheck</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>Login</servlet-name>
+        <url-pattern>/Login</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>Register</servlet-name>
+        <url-pattern>/Register</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>Dashboard</servlet-name>
+        <url-pattern>/Dashboard</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>TestConnection35</servlet-name>
+        <url-pattern>/TestConnection35</url-pattern>
     </servlet-mapping>
     <session-config>
         <session-timeout>
